@@ -1,0 +1,5 @@
+.DS_Store
+*.iinaplgz
+!dist/*.iinaplgz
+node_modules/
+npm-debug.log*

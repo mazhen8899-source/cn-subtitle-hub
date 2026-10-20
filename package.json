@@ -1,0 +1,13 @@
+{
+  "name": "cn-subtitle-hub-iina",
+  "version": "0.4.0",
+  "private": true,
+  "description": "Chinese-first subtitle aggregator plugin for IINA.",
+  "scripts": {
+    "check": "node --check main.js && node --check core.js",
+    "test": "node tests/core.test.js",
+    "pack": "zip -r cn-subtitle-hub-0.4.0.iinaplgz Info.json main.js core.js README.md package.json tests -x '*.DS_Store'",
+    "link": "/Applications/IINA.app/Contents/MacOS/iina-plugin link .",
+    "unlink": "/Applications/IINA.app/Contents/MacOS/iina-plugin unlink ."
+  }
+}

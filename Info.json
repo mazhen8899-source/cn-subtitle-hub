@@ -1,0 +1,50 @@
+{
+  "name": "CN Subtitle Hub",
+  "identifier": "com.local.cn-subtitle-hub",
+  "version": "0.4.0",
+  "description": "Chinese-first subtitle aggregator for IINA.",
+  "author": {
+    "name": "Local"
+  },
+  "entry": "main.js",
+  "permissions": ["show-osd", "file-system", "network-request"],
+  "allowedDomains": [
+    "api.assrt.net",
+    "assrt.net",
+    "www.subtitlecat.com",
+    "subtitlecat.com",
+    "subhd.tv",
+    "subhd.me",
+    "www.subhd.me",
+    "dl.subhd.me",
+    "sub.xmp.sandai.net",
+    "subtitle.v.geilijiasu.com",
+    "shooter.cn",
+    "www.shooter.cn",
+    "zimuku.org",
+    "www.zimuku.org",
+    "so.zimuku.org",
+    "s.zimuku.org",
+    "srtku.com",
+    "www.srtku.com",
+    "s.srtku.com"
+  ],
+  "subtitleProviders": [
+    {
+      "id": "cn-subtitle-hub",
+      "name": "CN Subtitle Hub"
+    }
+  ],
+  "preferenceDefaults": {
+    "assrt_token": "",
+    "preferred_language": "zh-CN",
+    "save_next_to_video": true,
+    "subtitlecat_enabled": true,
+    "subhd_enabled": true,
+    "xunlei_enabled": true,
+    "shooter_enabled": true,
+    "zimuku_enabled": false,
+    "assrt_enabled": true,
+    "result_limit": 20
+  }
+}
