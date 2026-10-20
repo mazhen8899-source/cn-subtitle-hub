@@ -34,7 +34,7 @@ Movie.Name.2021.srt
 
 ## 安装到 IINA
 
-可直接下载仓库中的 [0.4.0 安装包](dist/cn-subtitle-hub-0.4.0.iinaplgz?raw=true)。私有仓库需要先登录有访问权限的 GitHub 账户。
+可直接下载仓库中的 [0.4.0 安装包](dist/cn-subtitle-hub-0.4.0.iinaplgz?raw=true)，无需登录 GitHub，也无需安装 Node.js。
 
 运行环境为 macOS 和已启用插件系统的 IINA。项目曾在 IINA 1.5.0 上确认可加载；字幕站点后续变动可能需要更新适配。
 
@@ -86,3 +86,7 @@ npm run pack
 npm test
 npm run check
 ```
+
+## 使用反馈
+
+可在本仓库的 Issues 反馈问题。请注明 IINA 版本、字幕源、用于搜索的影片名称和错误提示；分享日志前请移除个人路径和 API Token。字幕源的站点改版、网络限制或缺少对应版本的字幕，可能影响搜索和下载结果。
